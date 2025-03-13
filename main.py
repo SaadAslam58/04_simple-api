@@ -40,7 +40,7 @@ money_quotes = [
 
 
 @app.get("/side_hustles")
-def get_side_hustles(apiKey: str):
+def get_side_hustles():
     """Return a list of side hustles"""
     # if apiKey != "123456789":
     #    return {"error": "Invalid API key"}
@@ -48,7 +48,7 @@ def get_side_hustles(apiKey: str):
 
 
 @app.get("/money_quotes")
-def get_money_quotes(apiKey: str):
+def get_money_quotes():
     """Return a list of money quotes"""
     # if apiKey != "123456789":
     #    return {"error": "Invalid API key"}
